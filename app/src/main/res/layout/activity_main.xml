@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:padding="40dp"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        tools:text="@string/title" />
+
+    <TextView
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="25dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="df" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/clear_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/ac"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/plus_minus_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/plus_minus"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/percent_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/mod"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/div_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/div"
+                android:textColor="@color/black" /> />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_7"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/button8"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_8"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_9"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/times_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/mult"
+                android:textColor="@color/black" /> />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_4"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/button5"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_5"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/button6"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_6"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/sub_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/sub"
+                android:textColor="@color/black" /> />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_1"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/button2"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_2"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/button3"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/_3"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/plus_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="@string/plus"
+                android:textColor="@color/black" /> />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button0"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@android:color/white"
+                android:text="@string/_0"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/decimal_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:background="@android:color/white"
+                android:text="@string/decimal"
+                android:textColor="@color/black" /> />
+
+            <Button
+                android:id="@+id/equal_button"
+                style="@android:style/DeviceDefault.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:background="@android:color/white"
+                android:text="@string/equal"
+                android:textColor="@color/black" /> />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
